@@ -29,6 +29,16 @@
     div.profile {
       margin-bottom: 4px;
     }
+
+    header, main, footer {
+      padding-left: 300px;
+    }
+
+    @media only screen and (max-width: 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    }
   </style>
   <meta charset="utf-8">
   <title>박태현 Portfolio</title>
@@ -66,18 +76,20 @@
 <!--  <h5>&nbsp;</h5>-->
 <div class="row">
   <div class="col s12 l3">
-    <div style="margin-left: 12px">
-      <h5>&nbsp;</h5>
-      <h4 class="bold">박태현</h4>
-      <h6 class="">Android Developer</h6>
-      <h5>&nbsp;</h5>
-      <div class="" style="margin-left: -8px">
-        <div class="valign-wrapper profile"><i class="material-icons">person</i>&nbsp;안드로이드 신입 개발자</div>
-        <div class="valign-wrapper profile"><i class="material-icons">code</i>&nbsp;<a
-          href="https://github.com/CrewDaniel">https://github.com/CrewDaniel</a></div>
-        <div class="valign-wrapper profile"><i class="material-icons">email</i>&nbsp;alaskay@naver.com</div>
-        <div class="valign-wrapper profile"><i class="material-icons">phone_android</i>&nbsp;010-2180-3853</div>
+    <div class="sidenav sidenav-fixed z-depth-0">
+      <div style="margin-left: 24px">
         <h5>&nbsp;</h5>
+        <h4 class="bold">박태현</h4>
+        <h6 class="">Android Developer</h6>
+        <h5>&nbsp;</h5>
+        <div class="" style="margin-left: -8px">
+          <div class="valign-wrapper profile"><i class="material-icons">person</i>&nbsp;안드로이드 신입 개발자</div>
+          <div class="valign-wrapper profile"><i class="material-icons">code</i>&nbsp;<a
+            href="https://github.com/CrewDaniel">https://github.com/CrewDaniel</a></div>
+          <div class="valign-wrapper profile"><i class="material-icons">email</i>&nbsp;alaskay@naver.com</div>
+          <div class="valign-wrapper profile"><i class="material-icons">phone_android</i>&nbsp;010-2180-3853</div>
+          <h5>&nbsp;</h5>
+        </div>
       </div>
     </div>
   </div>
@@ -98,10 +110,12 @@
     <div class="card white">
       <div class="card-content">
         <!--        row + valign_wrapper?-->
-        <div class="row">
+        <div class="row valign-wrapper">
           <div class="col s12 l4">
-            <div class="card-title"><h4 class="bold">공인식당&nbsp;<img src="./img/storeicon.png" alt="logo" class="circle btn-floating z-depth-2 custom"></h4><h6>2020.05 -
-              2020.11</h6>
+            <div class="card-title"><h4 class="bold">공인식당&nbsp;<img src="./img/storeicon.png" alt="logo"
+                                                                    class="circle btn-floating z-depth-2 custom"></h4>
+              <h6>2020.05 -
+                2020.11</h6>
             </div>
           </div>
           <div class="col s12 l8 right-align">
@@ -155,7 +169,7 @@
             <div class="card large z-depth-2">
               <div class="card-image">
                 <img src="./img/gongin_2.png">
-<!--                <span class="card-title" style="color: black">Card Title</span>-->
+                <!--                <span class="card-title" style="color: black">Card Title</span>-->
               </div>
               <div class="card-content">
                 <p>I am a very simple card. I am good at containing small bits of information.
@@ -193,11 +207,11 @@
             </div>
           </div>
           <div class="col s12 l8 right-align">
-<!--            <span class=""><a-->
-<!--              href='https://play.google.com/store/apps/details?id=com.team_no_yes.matzip_exe' target="_blank"><img-->
-<!--              alt='Get it on Google Play'-->
-<!--              src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height="50"-->
-<!--              width=auto;/></a></span>-->
+            <!--            <span class=""><a-->
+            <!--              href='https://play.google.com/store/apps/details?id=com.team_no_yes.matzip_exe' target="_blank"><img-->
+            <!--              alt='Get it on Google Play'-->
+            <!--              src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height="50"-->
+            <!--              width=auto;/></a></span>-->
             <span class=""><a href='https://github.com/nomakase' target="_blank"><img
               alt='GitHub Link'
               src="./img/GitHub_Logo.png"
@@ -207,7 +221,7 @@
 
         <div>
           <div class="chip">Kotlin</div>
-<!--          <div class="chip">JWT</div>-->
+          <!--          <div class="chip">JWT</div>-->
           <div class="chip">MVVM</div>
           <div class="chip">AAC</div>
           <div class="chip">Jetpack</div>
