@@ -18,9 +18,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Android                          # the main title
+title: Devroid                         # the main title
 
-# tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: 안드로이드 개발 일지   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   Android Dev Blog
