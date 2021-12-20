@@ -6,9 +6,6 @@ categories:
   - Android
 tags:
   - [Android, OpenGL ES, MediaPlayer, MediaCodec, boostcamp, boomerang]
-
-toc: true
-toc_sticky: true
  
 date: 2021-12-20
 last_modified_at: 2021-12-20
@@ -19,6 +16,8 @@ last_modified_at: 2021-12-20
 ![boomerang](https://user-images.githubusercontent.com/37128456/146734749-53d393a0-0438-4874-8c67-4bdb41bcefd7.png)
 
 이번 포스트부터는 부스트캠프 그룹프로젝트 기간에 개발한 미디어 메모 앱, 특히 제가 구현한 부분인 OpenGL ES 렌더링 방식의 동영상 메모 앱의 구현 과정과 구조에 대해 정리하려고 합니다.
+
+[boomerang](https://github.com/boostcampwm-2021/android05-boomerang) - 미디어 메모 앱
 
 # 동영상 메모
 
