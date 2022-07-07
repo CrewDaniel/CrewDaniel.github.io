@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://crewdaniel.github.io/sitemap.xml
